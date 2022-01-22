@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+body{
+    background-color: #121212;
+}
+
+header, footer{
+    background-color: #ffffff13;
+    padding: 10px 20px;
+}
+
+header .logo a{
+    color: #ffffff;
+    opacity: 87%;
+    text-decoration: none;
+    height: 30px;
+    display: inline-block;
+}
+
+header .logo a i{
+    font-size: 30px;
+}
+
+header .logo a span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+footer a{
+    color: #ffffff;
+    opacity: 87%;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    text-align: right;
+}
+
+.content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+.form-txt, .form-btn{
+    padding: 10px;
+    background-color: #ffffff13;
+    border: none;
+    color: #ffffff88;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-txt{
+    width: 100%;
+}
+
+.l-color{
+    margin-right: 20px;
+}
+
+.r-color{
+    margin-left: 20px;
+}
+
+.color-box{
+    flex-grow: 1;
+    border: #ffffff13 solid 1px;
+}
+
+.color-box label{
+    padding: 5px;
+    background-color: #ffffff13;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    opacity: 60%;
+    font-size: 12px;
+}
+
+.color-box label i{
+    font-size: 8px;
+    color: skyblue;
+}
+
+.color-box .color-container{
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+
+.color-box .color-container .form-color{
+    transform: translate(-10px, -10px);
+    height: 60px;
+    width: 120%;
+    background-color: transparent;
+    border: transparent;
+}
+
+
+
+.form-btn{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: #3700b3;
+}
+
+.form-btn:hover{
+    color: skyblue;
+}
+
+.qr-field{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

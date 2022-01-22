@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="logo">
+            <a href="index.html"><i class="fal fa-qrcode"></i>&nbsp;<span>QR-Code<br>Generator</span></a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="form-group">
+            <input type="text" placeholder="Enter Text" class="form-txt" id="inp_content">
+        </div>
+        <div class="form-group">
+            <div class="l-color color-box">
+                <label for="fore_color"><i class="fa fa-circle"></i><span>QR-Code color</span></label>
+                <div class="color-container">
+                    <input type="color" value="#3700b3" class="form-color" id="fore_color">
+                </div>
+            </div>
+            <div class="r-color color-box">
+                <label for="back_color"><i class="fa fa-circle"></i><span>Background color</span></label>
+                <div class="color-container">    
+                    <input type="color" value="#121212" class="form-color" id="back_color">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="button" class="form-btn" id="btn_generate" value="Generate">
+        </div>
+
+        <div class="qr-field">
+            <div id="qrcode"></div>
+        </div>
+
+
+
+    </div>
+    <footer>
+        <a href="#">RAVAL RAHUL</a>
+    </footer>
+
+</div>
+
+
+</body>
+<script src="js/app.js"></script>
+<script src="js/qrcode/qrcode.min.js"></script>
+</html>

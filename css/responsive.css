@@ -1,0 +1,24 @@
+@media (max-width:1000px) {
+    .form-group{
+        width: 90%;
+    }
+}
+
+@media (max-width:500px) {
+    .form-group{
+        width: 90%;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .form-group .color-box{
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-group .l-color{
+        margin-bottom: 10px;
+    }
+
+}
